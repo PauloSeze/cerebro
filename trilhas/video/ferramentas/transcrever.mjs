@@ -53,7 +53,16 @@ async function acharModelo() {
   console.log(`baixando o modelo ${nome} (uma vez só; small ≈ 470 MB)…`);
   const r = await fetch(`https://huggingface.co/ggerganov/whisper.cpp/resolve/main/${nome}`);
   if (!r.ok) throw new Error(`download do modelo falhou: HTTP ${r.status}`);
-  await pipeline(Readable.fromWeb(r.body), createWriteStream(destino + ".parcial"));
+  const total = +(r.headers.get("content-length") || 0);
+  let lido = 0, marco = 0;
+  const contar = async function* (fonte) {
+    for await (const pedaco of fonte) {
+      lido += pedaco.length;
+      if (total && lido / total >= marco + 0.1) { marco = Math.floor((lido / total) * 10) / 10; console.log(`  ${Math.round(marco * 100)}%`); }
+      yield pedaco;
+    }
+  };
+  await pipeline(Readable.fromWeb(r.body), contar, createWriteStream(destino + ".parcial"));
   (await import("node:fs")).renameSync(destino + ".parcial", destino);
   return destino;
 }

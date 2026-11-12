@@ -16,8 +16,9 @@ fictício: `trilhas/engenharia-fv/exemplos/projeto-ficticio.json`.
 ## 0. Dados do cliente e planilha
 
 - Tudo do cliente fica em `trilhas/engenharia-fv/clientes/<apelido>/memorial/` (fora do git; regra da `fv-ler-fatura`).
-- **A planilha é da Energisa e não vem no cérebro.** Peça ao usuário para baixar: site da Energisa → Normas técnicas →
-  "Formulário de Orçamento de conexão de Geração Distribuída" (arquivo `.xlsm`). Salve em
+- **A planilha é da Energisa e não vem no cérebro.** Peça ao usuário para baixar o "Formulário de Orçamento de
+  conexão de Geração Distribuída" (arquivo `.xlsm`) no site da Energisa, na área de normas técnicas ou de geração
+  distribuída (o endereço exato muda; se ele não achar, procurem juntos pelo nome do formulário). Salve em
   `trilhas/engenharia-fv/planilha-oficial/` (também fora do git) e nunca a copie para outro lugar do repositório.
 - Windows: o arquivo baixado vem com as macros bloqueadas. Rode `powershell -NoProfile -Command "Unblock-File -LiteralPath '<arquivo.xlsm>'"`
   (é o mesmo que Propriedades → Desbloquear).

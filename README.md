@@ -44,7 +44,8 @@ No Mac, abra o **Terminal**, rode `xcode-select --install` (instala o Git), baix
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-Se o `winget` perguntar sobre os termos das fontes, digite `Y` e Enter. Feche o terminal, abra de novo e confira com
+Se o `winget` perguntar sobre os termos das fontes, digite `Y` e Enter. Se aparecer "winget não é reconhecido" (Windows 10 mais antigo), instale o "Instalador de
+Aplicativo" pela Microsoft Store e repita. Feche o terminal, abra de novo e confira com
 `claude --version`. Se der erro, o guia oficial está em
 <https://code.claude.com/docs/en/setup>.
 
