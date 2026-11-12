@@ -1,0 +1,14 @@
+node_modules/
+projetos/**/*.mp4
+projetos/**/*.mov
+projetos/**/*.webm
+projetos/**/*.wav
+projetos/**/*.mp3
+projetos/**/*.m4a
+projetos/**/*.jpg
+projetos/**/*.png
+projetos/**/qa/
+projetos/**/renders/
+projetos/**/sons/
+projetos/**/assets/
+projetos/**/.hyperframes/

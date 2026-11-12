@@ -1,0 +1,22 @@
+.env
+.env.*
+*.key
+*.pem
+credenciais/
+node_modules/
+__pycache__/
+.venv/
+*.mp4
+*.mov
+*.wav
+*.mp3
+saida/
+renders/
+.DS_Store
+Thumbs.db
+.claude/settings.local.json
+
+# documentos internos de construção (saem antes da publicação)
+ESTRUTURA.md
+_RELATORIO*.md
+**/_RELATORIO*.md

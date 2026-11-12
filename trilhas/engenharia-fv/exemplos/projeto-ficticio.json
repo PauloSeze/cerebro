@@ -1,0 +1,46 @@
+{
+  "_aviso": "DADOS FICTÍCIOS. Mesmo cliente inventado do exemplo-ficticio.md (opção B: 6 módulos). Serve para testar a skill fv-memorial.",
+  "holder": {
+    "name": "Fulano de Exemplo",
+    "document": "123.456.789-09",
+    "email": "fulano@exemplo.com",
+    "mobile": "(65) 99999-0000"
+  },
+  "consumer_unit": { "code": "1.234.567.890-12", "class": "RESIDENCIAL" },
+  "address": {
+    "street": "RUA DE EXEMPLO",
+    "number": "100",
+    "district": "CENTRO",
+    "city": "Cuiabá",
+    "state": "MT",
+    "zip": "78000-000"
+  },
+  "location": { "lat": -15.6, "lon": -56.1, "area": "URBANO" },
+  "service_entrance": {
+    "supply_voltage_v": 220,
+    "connection": "BIFÁSICO",
+    "service_drop": "AÉREO",
+    "main_breaker_a": 50,
+    "phase_mm2": 10,
+    "neutral_mm2": 10,
+    "ground_mm2": 10
+  },
+  "load": {
+    "items": [
+      { "quantity": 1, "description": "CHUVEIRO ELÉTRICO", "power_w": 5500 },
+      { "quantity": 1, "description": "AR-CONDICIONADO", "power_w": 1400 },
+      { "quantity": 1, "description": "GELADEIRA", "power_w": 300 },
+      { "quantity": 10, "description": "ILUMINAÇÃO", "power_w": 20 },
+      { "quantity": 1, "description": "TOMADAS DE USO GERAL", "power_w": 600 }
+    ]
+  },
+  "modules": [
+    { "quantity": 6, "manufacturer": "EXEMPLO SOLAR", "model": "EX-600M", "power_w": 600, "area_m2": 2.6 }
+  ],
+  "inverters": [
+    { "quantity": 1, "manufacturer": "GROWATT", "model": "MIN 3000TL-X", "power_kw": 3, "voltage_v": 220 }
+  ],
+  "protection": { "dps_ac_ka": 20, "ac_breaker_a": 20 },
+  "expected_connection": { "month": "JANEIRO", "year": 2027 },
+  "requester": { "name": "Responsável de Exemplo", "phone": "65999998888", "email": "rt@exemplo.com" }
+}

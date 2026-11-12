@@ -1,0 +1,32 @@
+{
+  "_aviso": "DADOS FICTÍCIOS, inclusive os elétricos do módulo e do inversor. Bloco da prancha do projeto-ficticio.json (6 módulos em uma string). Serve para testar a skill fv-prancha.",
+  "complemento": "QD 01 LT 01",
+  "modulo": { "voc_v": 53.5, "isc_a": 14.3, "vmp_v": 44.6, "imp_a": 13.46, "coef_voc_pct_c": -0.27 },
+  "inversores": [
+    {
+      "corrente_max_saida_a": 13.6,
+      "tensao_max_cc_v": 500,
+      "mppt_min_v": 80,
+      "mppt_max_v": 500,
+      "corrente_max_mppt_a": 13.5,
+      "isc_max_mppt_a": 16.9,
+      "afci": true,
+      "dps_cc_integrado": "TIPO II",
+      "dps_ca_integrado": "TIPO III",
+      "chave_cc_integrada": true,
+      "mppts": [{ "strings": [6] }]
+    }
+  ],
+  "protecoes": {
+    "dps_ca": { "classe": "II", "tensao_v": 275, "in_ka": 10 },
+    "cabo_cc_mm2": 6,
+    "cabo_ca_mm2": 4,
+    "cabo_pe_mm2": 4
+  },
+  "projeto": {
+    "trt_art": "TRT-EXEMPLO-0000",
+    "revisao": "00",
+    "temperatura_min_c": 5,
+    "rt": { "nome": "RESPONSÁVEL DE EXEMPLO", "titulo": "TÉCNICO EM ELETROTÉCNICA", "registro": "CFT Nº 00000000000" }
+  }
+}

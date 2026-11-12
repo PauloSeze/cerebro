@@ -1,0 +1,14 @@
+{
+  "molde": "explicativo",
+  "titulo": "regra-dos-3-segundos",
+  "cenas": [
+    { "tipo": "titulo", "texto": "Você tem *3 segundos*", "apoio": "para alguém parar no seu vídeo", "fundo": "escuro" },
+    { "em": "w14", "tipo": "numero", "valor": "65", "sufixo": "%", "rotulo": "pulam antes disso", "fundo": "cor" },
+    { "em": "w30", "tipo": "versus", "a": { "rotulo": "Errado", "texto": "\"Oi, gente, hoje eu vou…\"" },
+      "b": { "rotulo": "Certo", "texto": "A promessa na 1ª frase" }, "em_b": "w38", "fundo": "escuro" },
+    { "em": "w47", "tipo": "lista", "titulo": "O gancho tem", "fundo": "claro",
+      "itens": [ { "texto": "Um número", "em": "w50" }, { "texto": "Um nome", "em": "w54" }, { "texto": "Um contraste", "em": "w58" } ] },
+    { "em": "w66", "tipo": "frase", "texto": "Promessa *paga*", "fundo": "cor" },
+    { "em": "w80", "tipo": "fecho", "cta": "Manda pra quem grava vídeo" }
+  ]
+}

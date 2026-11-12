@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "trilha-video",
+  "type": "module",
+  "description": "Versao travada do HyperFrames para os moldes da trilha de video. Subir de proposito e testar os tres moldes antes.",
+  "devDependencies": {
+    "hyperframes": "0.9.34"
+  }
+}

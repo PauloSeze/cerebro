@@ -1,0 +1,4 @@
+# Dados de clientes (faturas, leituras, pré-dimensionamentos, memoriais) ficam só no computador: LGPD.
+clientes/
+# A planilha do Memorial GD é da Energisa: cada um baixa a sua no site, ela não vai para o GitHub.
+planilha-oficial/

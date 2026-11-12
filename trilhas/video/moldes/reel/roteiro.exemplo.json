@@ -1,0 +1,12 @@
+{
+  "molde": "reel",
+  "titulo": "orcamento-que-perdi",
+  "gancho": { "texto": "Perdi *R$ 4 mil* num orçamento", "ate": 2.8, "posicao": "topo" },
+  "destaques": [
+    { "em": "w18", "tipo": "numero", "prefixo": "R$ ", "valor": "4.000", "rotulo": "num orçamento só", "dur": 2.6 },
+    { "em": "w57", "tipo": "frase", "texto": "Prazo *escrito*", "dur": 2.4 }
+  ],
+  "fecho": { "cta": "Manda pra quem faz orçamento de cabeça" },
+  "zoom": 1.1,
+  "legenda": { "palavras": 3 }
+}
